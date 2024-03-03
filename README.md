@@ -1,5 +1,8 @@
 # <p align = "center"> Coderhood - API 2º Semestre - BD 2024
 
+# <p align = "center"> ![Coderhood](https://github.com/CoderhoodFatec-2024-1/Coderhood/assets/87550162/9118c9a1-358d-43e4-bd2e-5ad74bf36783)
+
+
 <p align="center">
   <a href ="#mortar_board-integrantes-da-equipe"> Integrantes </a>  •
   <a href ="#anger-descrição-do-desafio"> Desafio </a>  •
