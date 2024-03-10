@@ -52,18 +52,29 @@ public class App extends Application {
 
     private void imprimirConteudoCSV(File arquivo) {
         try (Reader reader = new FileReader(arquivo);
-             CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT)) {
-
+             CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withDelimiter(';').withFirstRecordAsHeader())) {
+    
+            // Imprime os cabeçalhos das colunas
+            System.out.println("---------------------------------------------------------------------------------------");
+            for (String header : csvParser.getHeaderNames()) {
+                System.out.printf("%-20s", header);
+            }
+            System.out.println("\n---------------------------------------------------------------------------------------");
+    
+            // Itera sobre cada registro no arquivo CSV
             for (CSVRecord csvRecord : csvParser) {
-                for (String value : csvRecord) {
-                    System.out.print(value + " | ");
+                // Imprime o conteúdo de cada coluna para o registro atual
+                for (String header : csvParser.getHeaderNames()) {
+                    System.out.printf("%-20s", csvRecord.get(header));
                 }
                 System.out.println();
             }
+            System.out.println("---------------------------------------------------------------------------------------");
         } catch (IOException e) {
             System.err.println("Erro ao ler o arquivo CSV: " + e.getMessage());
         }
     }
+    
 
     public static void main(String[] args) {
         launch(args);
