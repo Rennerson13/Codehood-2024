@@ -65,7 +65,7 @@ public class App extends Application {
             for (CSVRecord csvRecord : csvParser) {
                 // Imprime o conteúdo de cada coluna para o registro atual
                 for (String header : csvParser.getHeaderNames()) {
-                    System.out.printf("%-20s", csvRecord.get(header));
+                    System.out.printf("%-15s", csvRecord.get(header));
                 }
                 System.out.println();
             }
