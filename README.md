@@ -42,34 +42,39 @@
 | [Trello](https://trello.com/b/3ZY8lQA1/api) |
 
 ## :page_facing_up: Requisitos Funcionais
-* O sistema deve
-* O sistema deve
-* O sistema deve
+* O sistema deve carregar e validar de arquivos CSV.
+* O sistema deve conter gerenciamento de estações, cidades e unidades de medida.
+* O sistema deve gerar relatórios de valor médio das variáveis climáticas por cidade.
+* O sistema deve gerar relatórios com gráficos boxplot.
+* O sistema deve possibilitar o tratamento de registros suspeitos
 
 ## :page_with_curl: Requisitos Não Funcionais
 
 * Linguagem de programação Java e tecnologias relacionadas
+* Banco de Dados Relacionais
+* Documentação: manual de usuário, diagrama entidade-relacionamento e instruções de instalação.
 
 ## :calendar: Cronograma
 
 | Sprint  | Nome | Data inicio  | Data Fim | Status |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| --  | KickOff   | 00/00   | 00/00 | | 
-|  1  | Sprint 1   | 00/00   | 00/00 | | 
-|  2  | Sprint 2   | 00/00   | 00/00 | |
-|  3  | Sprint 3   | 00/00   | 00/00 | | 
-|  4  | Sprint 4   | 00/00   | 00/00 | | 
-|  5  | Feira de Soluções  | 00/00  | 00/00 | |
+| --  | KickOff   | 04/03   | 08/03 | | 
+|  1  | Sprint 1   | 25/03   | 14/04 | | 
+|  2  | Sprint 2   | 15/04   | 05/05 | |
+|  3  | Sprint 3   | 06/05   | 26/05 | | 
+|  4  | Sprint 4   | 27/05   | 16/06 | | 
+|  5  | Feira de Soluções  | 27/06 | |
 
 
 ## :date: Product BackLog
 | ID   | User Stories                                                 | Épico                       | Sprint                                                    | Prioridade |
 | ---- | ------------------------------------------------------------ | --------------------------- | --------------------------------------------------------- | ---------- |
-| 1 | Como X, eu quero poder importar informações o clima via arquivo csv contendo os dados, para manter registros precisos.| Importar Dados climaticos Via Arquivo CSV | - | 1 |
-| 2 | Como X, eu quero poder gerar relatórios, para melhor visualização dos dados | Gerar Relatório | - | 3 |
-| 3 | Como X, eu quero poder revisar e editar informações dados suspeitos, para evitar dados imprecisos. | Tratamento de Dados Suspeitos| - | 2 |
-| 4 | Como X, eu quero poder X, para X. | ? | - | 4 |
-| 5 | Como X, eu quero documentações detalhadas, incluindo um manual de usuário e instruções de instalação, para facilitar o uso e a manutenção do sistema.| Criar Documentação | - | 5 |
+| 1 | Como usuário, eu quero poder importar informações o clima via arquivo csv contendo os dados, para manter registros precisos.| Importar Dados climaticos Via Arquivo CSV | - | 1 |
+| 2 | Como usuário, eu quero poder gerar relatórios, para melhor visualização dos dados | Gerar Relatório | - | 3 |
+| 3 | Como usuário, eu quero poder revisar e editar informações dados suspeitos, para evitar dados imprecisos. | Tratamento de Dados Suspeitos| - | 2 |
+| 4 | Como usuário, eu quero poder adicionar novas estações meteorológicas ao sistema para especificar ampliar minha base de dados.. | Adição de Novas Bases de Coleta | - | 4 |
+| 5 | Como usuário, eu quero documentações detalhadas, incluindo um manual de usuário e instruções de instalação, para facilitar o uso e a manutenção do sistema.| Criar Documentação | - | 5 |
+
 
 
 
