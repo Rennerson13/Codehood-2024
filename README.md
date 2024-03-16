@@ -63,14 +63,14 @@
 
 
 ## :date: Product BackLog
+| ID   | User Stories                                                 | Épico                       | Sprint                                                    | Prioridade |
+| ---- | ------------------------------------------------------------ | --------------------------- | --------------------------------------------------------- | ---------- |
+| 1 | Como X, eu quero poder importar informações o clima via arquivo csv contendo os dados, para manter registros precisos.| Importar Dados climaticos Via Arquivo CSV | - | 1 |
+| 2 | Como X, eu quero poder gerar relatórios, para melhor visualização dos dados | Gerar Relatório | - | 3 |
+| 3 | Como X, eu quero poder revisar e editar informações dados suspeitos, para evitar dados imprecisos. | Tratamento de Dados Suspeitos| - | 2 |
+| 4 | Como X, eu quero poder X, para X. | ? | - | 4 |
+| 5 | Como X, eu quero documentações detalhadas, incluindo um manual de usuário e instruções de instalação, para facilitar o uso e a manutenção do sistema.| Criar Documentação | - | 5 |
 
-
-| Ranking de Prioridades | Prioridade | User Stories | Sprint |
-| ------------- | ------------- | ------------- | ------------- |
-| 1º | Alta |  **Requisito 01** Descrição do Requisito  | [#0]  | 
-| 2º | Alta |  **Requisito 01** Descrição do Requisito  | [#0]  | 
-| 3º | Media |  **Requisito 01** Descrição do Requisito  | [#0]  |
-| 4º | Baixa |  **Requisito 01** Descrição do Requisito  | [#0]  |
 
 
 ## :bookmark: Tecnologias Utilizadas
